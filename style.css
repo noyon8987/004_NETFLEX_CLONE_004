@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(39, 37, 37);
+}
+
+.main {
+    background-image: url("./img/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 688px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.99;
+    position: absolute;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    max-width: 75vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: rgb(250, 0, 0);
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    font-size: 0.85rem;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.content {
+    color: white;
+    position: relative;
+    z-index: 100;
+    top: 24vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1 {
+    font-size: 3.2rem;
+    font-weight: bolder;
+}
+
+.content .p1 {
+    font-size: 1.4rem;
+    letter-spacing: 0.000001px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.content .p2 {
+    font-size: 1.3rem;
+    letter-spacing: 0.000001px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.input-btn {
+    margin-top: 20px;
+}
+
+.input-btn {
+    border: none;
+    outline: none;
+}
+
+.input-btn input {
+    width: 380px;
+    height: 50px;
+    background-color: rgba(31, 30, 30, 0.9);
+    border: 0.5px solid rgba(126, 124, 124, 0.9);
+    border-radius: 5px;
+    font-size: 0.95rem;
+    padding-left: 20px;
+    color: white;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+
+.input-btn input:hover {
+    border: 2px solid white;
+}
+
+.btn {
+    width: 190px;
+    height: 53px;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    position: relative;
+    top: 1px;
+}
+
+.btn:hover {
+    background-color: rgba(252, 0, 0, 0.9);
+}
+
+.box1 {
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.boxs {
+    display: flex;
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.text h1 {
+    color: white;
+    font-size: 2.8rem;
+    margin-top: 22vh;
+}
+
+.text p {
+    color: white;
+    width: 580px;
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+.video {
+    margin-top: 25vh;
+}
+
+.box3 {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.text3 {
+    color: white;
+    position: relative;
+    top: 15vh;
+    left: 25%;
+    width: 400px;
+}
+
+.text3 h1 {
+    font-size: 3rem;
+}
+
+.text3 p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.img2 {
+    width: 600px;
+    margin-top: 100px;
+}
+
+.foot-up {
+    background-color: black;
+    width: 100%;
+    height: 130vh;
+    margin-top: 10px;
+    color: white;
+}
+
+.foot-up h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+}
+
+.foot-boxs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot-box {
+    width: 78%;
+    height: 12vh;
+    background-color: rgb(46, 46, 46);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-box h2 {
+    text-align: left;
+    margin: 20px;
+    margin-top: 3.5vh;
+    font-size: 1.3rem;
+}
+
+.foot-box i {
+    font-size: 3rem;
+    margin-right: 30px;
+}
+
+.foot-up p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 30px;
+}
+
+.foot-up .input-btn {
+    margin-left: 67vh;
+}
+
+.foot-down {
+    background-color: black;
+    height: 50vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot-box1 a {
+    padding: 10px;
+    color: wheat;
+    font-size: 0.85rem;
+}
+
+.atag {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
